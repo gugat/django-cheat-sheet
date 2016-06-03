@@ -1,9 +1,18 @@
 # django-cheat-sheet
 Cheat sheet for Django 
 
+
+
 ### General
 ##### Run shell
 	python manage.py shell
+
+##### Version
+
+```
+>>> import django
+>>> print(django.get_version())
+```
 
 ##### Run server
 	python manage.py runserver
