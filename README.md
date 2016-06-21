@@ -4,6 +4,24 @@ Cheat sheet for Django
 
 
 ### General
+
+##### Installation
+pip install django 
+
+##### Start project
+django-admin.py startproject _my-project_
+
+```
+my-project/
+├── manage.py
+└── superlists
+    ├── __init__.py
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+
+```
+
 ##### Run shell
 	python manage.py shell
 
